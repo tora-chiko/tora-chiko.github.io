@@ -1,1 +1,34 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>血液型占い</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>血液型占い</h1>
+    </header>
+    <main>
+        <div>
+            <label for="blood-type-select">血液型を選択:</label>
+            <select id="blood-type-select">
+                <option value="">--選択--</option>
+                <option value="A">A型</option>
+                <option value="B">B型</option>
+                <option value="AB">AB型</option>
+                <option value="O">O型</option>
+            </select>
+            <button id="fortune-btn">占いを見る</button>
+        </div>
+        <div id="fortune-container">
+            <!-- 占い結果が出力されます -->
+        </div>
+    </main>
+    <footer>
+        &copy; 2023 血液型占い
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
