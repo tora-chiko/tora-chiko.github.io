@@ -65,4 +65,4 @@ fortuneBtn.addEventListener("click", () => {
     }
     
     fortuneContainer.textContent = fortune;
-});' > script.js
+});
